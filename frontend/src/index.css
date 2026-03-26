@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* ✅ Reset + Fix layout */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;   /* ❌ prevent horizontal scroll */
+  overflow-y: hidden;     /* ✅ allow vertical scroll */
+  width: 100%;
+}
+
+/* ✅ Box sizing fix */
+* {
+  box-sizing: border-box;
+  max-width: 100%;      /* prevent overflow */
+}
+
+/* ✅ Remove text cursor (| issue) */
+body {
+  user-select: none;
+}
+
+/* ✅ Allow input typing */
+input, textarea {
+  user-select: text;
+}
+
+/* ✅ Remove focus outline (optional clean UI) */
+button:focus,
+button:active {
+  outline: none;
+}
+
+/* ✅ Prevent root overflow */
+#root {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
