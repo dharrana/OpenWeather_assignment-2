@@ -276,7 +276,7 @@ const Orders = ({ orders, hasRun }) => {
               color: "white",
             }}
           >
-            AI-Logs Overview
+            Active Orders Overview
           </h1>
         </div>
         <p

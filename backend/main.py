@@ -41,7 +41,7 @@ async def fetch_weather(session, city):
 
 # 🤖 AI Message (Delay)
 def generate_apology(customer, city, weather):
-    return f"Hi {customer}, your order to {city} is delayed due to {weather.lower()}."
+    return f"Hi {customer}, your order to {city} is delayed due to {weather.lower()}. We appreciate your patience and are working hard to get your delivery to you as soon as conditions improve!"
 
 
 # ❌ Error Message

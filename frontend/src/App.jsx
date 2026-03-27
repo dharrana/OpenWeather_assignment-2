@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Dashboard from "./pages/Dashboard";
 import Orders from "./pages/Orders";
+import AIDevelopmentLog from "./pages/AIDevelopmentLog";
 
 function App() {
   const [page, setPage] = useState("dashboard");
@@ -89,6 +90,7 @@ function App() {
             <Dashboard orders={orders} hasRun={hasRun} />
           )}
           {page === "orders" && <Orders orders={orders} hasRun={hasRun} />}
+          {page === "ai-log" && <AIDevelopmentLog />}
         </main>
 
         <Footer />

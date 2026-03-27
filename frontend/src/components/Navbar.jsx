@@ -79,7 +79,7 @@ const Navbar = ({ setPage, runWeatherCheck, loading, page }) => {
           },
           {
             id: "orders",
-            label: "AI-Logs",
+            label: "Active Orders",
             icon: (
               <svg
                 width="14"
@@ -97,6 +97,26 @@ const Navbar = ({ setPage, runWeatherCheck, loading, page }) => {
                 <line x1="12" y1="22" x2="12" y2="12" />
                 <circle cx="18.5" cy="15.5" r="2.5" />
                 <path d="M20.27 17.27 22 19" />
+              </svg>
+            ),
+          },
+          {
+            id: "ai-log",
+            label: "AI Log",
+            icon: (
+              <svg
+                className="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+              >
+                <path d="M12 2v4" />
+                <path d="M12 18v4" />
+                <path d="M4.93 4.93l2.83 2.83" />
+                <path d="M16.24 16.24l2.83 2.83" />
+                <path d="M2 12h4" />
+                <path d="M18 12h4" />
+                <circle cx="12" cy="12" r="3" />
               </svg>
             ),
           },
