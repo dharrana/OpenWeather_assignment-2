@@ -230,10 +230,6 @@ The AI Development Log page explains how the system was built and includes:
 
 ## Author
 
-Ashim Maity
+Ranajoy Dhar
 
 ---
-
-## License
-
-This project is open-source and available under the MIT License.
